@@ -93,6 +93,9 @@ in our CLI Driver. Hence uploading the precompiled DBD::DB2 dll's in "Windows_Bi
 *** TESTING:
 	Set the DB2_USER & DB2_PASSWD as env variable. If the same is not set, it will be picked from connection.pl
     All Platforms:
+	
+	Make sure that Db2 Perl driver is installed either by using steps mentioned earlier or using "cpanm install DBD::DB2".
+	
     Edit the file connection.pl in the folder tests so that it looks like the following:
 
     $USERID="userid";
