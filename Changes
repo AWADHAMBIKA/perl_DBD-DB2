@@ -3,6 +3,14 @@
 DBD::DB2::Changes - List of changes
 
 =cut
+=head2 Changes in DBD::DB2 1.94, Oct 14, 2026
+
+  Fix compiler warnings, including an implicit declaration of dbd_st_cancel,
+  format mismatches, pointer-sign warnings, and unused variables.
+  Initialize codepage values and correct the missing return in LOB column
+  binding.
+  Update connection and host-variable tests for newer DB2 error codes.
+
 =head2 Changes in DBD::DB2 1.93, Oct 5, 2026
 
   Change the DBD::DB2 project license to Apache-2.0.

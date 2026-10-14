@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         DBD-DB2
-version:      1.93
+version:      1.94
 version_from: DB2.pm
 license:      apache_2_0
 installdirs:  site
@@ -9,4 +9,3 @@ requires:
 
 distribution_type: module
 generated_by: ExtUtils::MakeMaker version 6.30
-
